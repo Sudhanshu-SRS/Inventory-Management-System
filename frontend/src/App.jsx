@@ -9,6 +9,9 @@ import Dasboard from "../pages/dasboard";
 import SearchInvoice from "../pages/SearchInvoice";
 import CustomerDetails from "../pages/CustomerDetails";
 import Reports from "../pages/Reports";
+import Categories from "../pages/Categories";
+import Products from "../pages/Products";
+import Subcategories from "../pages/Subcategories";
 import "./App.css";
 import { ThemeProvider } from "../context/ThemeContext";
 
@@ -31,6 +34,9 @@ const App = () => {
                 <Route path="/search-invoice" element={<SearchInvoice />} />
                 <Route path="/customers" element={<CustomerDetails />} />
                 <Route path="/reports" element={<Reports />} />
+                <Route path="/categories" element={<Categories />} />
+                <Route path="/products" element={<Products />} />
+                <Route path="/subcategories" element={<Subcategories />} />
                 {/* Add more routes for other pages */}
               </Routes>
             </main>
