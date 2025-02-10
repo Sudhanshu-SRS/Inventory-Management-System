@@ -57,7 +57,7 @@ const CustomerDetails = () => {
       animate={{ opacity: 1 }}
       className={`min-h-screen ${baseClass} p-6 transition-colors duration-300`}
     >
-      <div className="max-w-7xl mx-auto">
+      <div className="max-w-7xl mx-auto ml-40">
         {/* Header Section */}
         <div className="flex justify-between items-center mb-8">
           <div>
