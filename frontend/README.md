@@ -1,8 +1,42 @@
-# React + Vite
+# Pulses Inventory Management System
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern inventory management system for pulses business built with React and Tailwind CSS.
 
-Currently, two official plugins are available:
+## Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Visit the live demo: [https://yourusername.github.io/repository-name](https://yourusername.github.io/repository-name)
+
+## Features
+
+- 🌓 Dark/Light theme
+- 📱 Responsive design
+- 📊 Interactive dashboard
+- 🔍 Advanced search
+- 📝 Invoice management
+- 👥 Customer management
+- 📈 Reports and analytics
+
+## Technology Stack
+
+- React
+- Tailwind CSS
+- Framer Motion
+- React Router
+- Chart.js
+
+## Getting Started
+
+To run this project locally:
+
+```bash
+# Clone the repository
+git clone https://github.com/yourusername/repository-name.git
+
+# Navigate to frontend directory
+cd repository-name/frontend
+
+# Install dependencies
+npm install
+
+# Start development server
+npm run dev

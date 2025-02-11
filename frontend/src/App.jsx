@@ -18,7 +18,7 @@ import { ThemeProvider } from "../context/ThemeContext";
 const App = () => {
   return (
     <ThemeProvider>
-      <Router>
+      <Router basename="/Inventory-Management-System">
         <div className="flex">
           <Sidebar />
           <div
