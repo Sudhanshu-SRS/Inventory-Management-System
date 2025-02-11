@@ -3,40 +3,40 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://github.com/Sudhanshu-SRS/Inventory-Management-System",
+  "homepage": "https://sudhanshu-srs.github.io/Inventory-Management-System",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d dist --message \"Deploy React app to GitHub Pages\""
   },
   "dependencies": {
-    "axios": "^1.7.9",
-    "chart.js": "^4.4.7",
-    "framer-motion": "^12.4.1",
-    "react": "^19.0.0",
+    "axios": "^1.6.7",
+    "chart.js": "^4.4.1",
+    "framer-motion": "^11.0.3",
+    "react": "^18.2.0",
     "react-chartjs-2": "^5.3.0",
-    "react-dom": "^19.0.0",
-    "react-icons": "^5.4.0",
-    "react-router-dom": "^6.4.0"
+    "react-dom": "^18.2.0",
+    "react-icons": "^5.0.1",
+    "react-router-dom": "^6.22.0"
   },
   "devDependencies": {
     "@eslint/js": "^9.19.0",
     "@tailwindcss/forms": "^0.5.10",
     "@types/react": "^19.0.8",
     "@types/react-dom": "^19.0.3",
-    "@vitejs/plugin-react": "^4.3.4",
-    "autoprefixer": "^10.4.15",
-    "eslint": "^9.19.0",
+    "@vitejs/plugin-react": "^4.2.1",
+    "autoprefixer": "^10.4.17",
+    "eslint": "^8.56.0",
     "eslint-plugin-react": "^7.37.4",
     "eslint-plugin-react-hooks": "^5.0.0",
     "eslint-plugin-react-refresh": "^0.4.18",
-    "gh-pages": "^6.3.0",
+    "gh-pages": "^6.1.1",
     "globals": "^15.14.0",
-    "postcss": "^8.4.31",
-    "tailwindcss": "^3.3.3",
-    "vite": "^6.1.0"
+    "postcss": "^8.4.35",
+    "tailwindcss": "^3.4.1",
+    "vite": "^5.0.12"
   }
 }
