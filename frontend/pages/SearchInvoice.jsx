@@ -57,7 +57,7 @@ const SearchInvoice = () => {
       animate={{ opacity: 1 }}
       className={`min-h-screen ${theme.baseBackground} p-6 transition-colors duration-300`}
     >
-      <div className="max-w-7xl mx-auto">
+      <div className="max-w-7xl mx-auto ml-40">
         <h1 className={`text-4xl font-bold ${theme.heading} mb-8`}>
           Search Invoices
         </h1>

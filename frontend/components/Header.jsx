@@ -14,7 +14,7 @@ const Header = () => {
         isDark ? "border-gray-700" : "border-gray-200"
       }`}
     >
-      <div className="container mx-auto px-6 py-4 flex justify-between items-center">
+      <div className="container mx-auto px-6 ml-40 py-4 flex justify-between items-center">
         <h1
           className={`text-2xl font-bold ${
             isDark ? "text-white" : "text-gray-800"
